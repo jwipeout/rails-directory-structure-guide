@@ -1,0 +1,1 @@
+# rails_directory_structure_guide
