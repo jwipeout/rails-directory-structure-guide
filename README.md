@@ -10,10 +10,6 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 
 - [app](#app)
 	- [assets](#app_assets)
-		- [config](#app_assets_config)
-		- [images](#app_assets_images)
-		- [javascripts](#app_assets_javascripts)
-		- [stylesheets](#app_assets_stylesheets)
 	- [channels](#app_channels)
 	- [controllers](#app_controllers)
 	- [helpers](#app_helpers)
@@ -50,12 +46,102 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [support](#spec_support)
 	- [views](#spec_views)
 - [tmp](#tmp)
-	- [cache](#tmp_cache)
 - [vendor](#vendor)
-	- [assets](#vendor_assets)
-		- [javascripts](#vendor_assets_javascripts)
-		- [stylesheets](#vendor_assets_stylesheets)
 
 ### <a name="app"></a> app
 
 It organizes your application components. It's got subdirectories that hold the views, controllers, models, and more that handle business logic.
+
+#### <a name="app_assets"></a> app/assets
+
+Holds the assets for your application including images, stylesheets, and javascript.
+
+#### <a name="app_channels"></a> app/channels
+
+Contains channels used to setup connections with [ActionCable](http://guides.rubyonrails.org/action_cable_overview.html#channels).
+
+#### <a name="app_controllers"></a> app/controllers
+
+Contains app [controllers](http://guides.rubyonrails.org/action_controller_overview.html).
+
+#### <a name="app_helpers"></a> app/helpers
+
+Contains app [helpers](http://guides.rubyonrails.org/action_view_overview.html#overview-of-helpers-provided-by-action-view).
+
+#### <a name="app_jobs"></a> app/jobs
+
+Contains app [jobs](http://guides.rubyonrails.org/v4.2/active_job_basics.html).
+
+#### <a name="app_mailers"></a> app/mailers
+
+Contains app [mailers](http://guides.rubyonrails.org/action_mailer_basics.html).
+
+#### <a name="app_models"></a> app/models
+
+Contains app [models](http://guides.rubyonrails.org/active_record_basics.html).
+
+#### <a name="app_views"></a> app/views
+
+Contains app [views](http://guides.rubyonrails.org/layouts_and_rendering.html).
+
+---
+
+### <a name="bin"></a> bin
+
+Contains the rails script that starts your app and can contain other scripts you use to setup, update, deploy or run your application.
+
+---
+
+### <a name="config"></a> config
+
+Configure your application's routes, database, and more. This is covered in more detail in [Configuring Rails Applications](http://guides.rubyonrails.org/configuring.html).
+
+---
+
+### <a name="db"></a> db
+
+Contains your current database schema, as well as the database migrations.
+
+---
+
+### <a name="lib"></a> lib
+
+Extended modules for your application.
+
+---
+
+### <a name="log"></a> log
+
+Application log files.
+
+---
+
+### <a name="public"></a> public
+
+The only folder seen by the world as-is. Contains static files and compiled assets.
+
+---
+
+### <a name="test"></a> test
+
+Unit tests, fixtures, and other test apparatus. These are covered in [Testing Rails Applications](http://guides.rubyonrails.org/testing.html).
+
+---
+
+### <a name="spec"></a> spec
+
+Alternative to test directory using BDD. [Rspec](http://guides.rubyonrails.org/testing.html) allows you to write an alternative syntax to Test Unit that reads more like a specification than a test.
+
+---
+
+### <a name="tmp"></a> tmp
+
+Temporary files (like cache and pid files).
+
+---
+
+### <a name="vendor"></a> vendor
+
+A place for all third-party code. In a typical Rails application this includes vendored gems.
+
+
