@@ -52,50 +52,50 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 
 ---
 
-### <a name="app"></a> app
+## <a name="app"></a> app
 
 It organizes your application components. It's got subdirectories that hold the views, controllers, models, and more that handle business logic.
 
-#### <a name="app_assets"></a> app/assets
+### <a name="app_assets"></a> app/assets
 
 Holds the assets for your application including images, stylesheets, and javascript.
 
-#### <a name="app_channels"></a> app/channels
+### <a name="app_channels"></a> app/channels
 
 Contains channels used to setup connections with [ActionCable](http://guides.rubyonrails.org/action_cable_overview.html#channels).
 
-#### <a name="app_controllers"></a> app/controllers
+### <a name="app_controllers"></a> app/controllers
 
 Contains app [controllers](http://guides.rubyonrails.org/action_controller_overview.html).
 
-#### <a name="app_decorators"></a> *app/decorators
+### <a name="app_decorators"></a> *app/decorators
 
 Contains app decorators. App decorators is a design pattern to remove view methods from models. The [Draper Gem](https://github.com/drapergem/draper) is a popular choice to use to help with creating and using decorators.
 
-#### <a name="app_helpers"></a> app/helpers
+### <a name="app_helpers"></a> app/helpers
 
 Contains app [helpers](http://guides.rubyonrails.org/action_view_overview.html#overview-of-helpers-provided-by-action-view).
 
-#### <a name="app_jobs"></a> app/jobs
+### <a name="app_jobs"></a> app/jobs
 
 Contains app [jobs](http://guides.rubyonrails.org/v4.2/active_job_basics.html).
 
-#### <a name="app_mailers"></a> app/mailers
+### <a name="app_mailers"></a> app/mailers
 
 Contains app [mailers](http://guides.rubyonrails.org/action_mailer_basics.html).
 
-#### <a name="app_models"></a> app/models
+### <a name="app_models"></a> app/models
 
 Contains app [models](http://guides.rubyonrails.org/active_record_basics.html).
 
-#### <a name="app_services"></a> *app/services
+### <a name="app_services"></a> *app/services
 
 Contains app services. A service object implements the user’s interactions with the application. It contains business logic that describe the connections with your domain objects.
 
 - [article](https://www.netguru.co/blog/service-objects-in-rails-will-help) about using services in rails.
 - [video](http://railscasts.com/episodes/398-service-objects) Railscast - implementing a service.
 
-#### <a name="app_views"></a> app/views
+### <a name="app_views"></a> app/views
 
 Contains app [views](http://guides.rubyonrails.org/layouts_and_rendering.html).
 
