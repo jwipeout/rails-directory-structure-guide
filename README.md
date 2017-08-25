@@ -13,6 +13,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [channels](#app_channels)
 	- [controllers](#app_controllers)
 	- [*decorators](#app_decorators)
+	- [*forms](#app_forms)
 	- [helpers](#app_helpers)
 	- [jobs](#app_jobs)
 	- [mailers](#app_mailers)
@@ -70,7 +71,15 @@ Contains app [controllers](http://guides.rubyonrails.org/action_controller_overv
 
 ### <a name="app_decorators"></a> *app/decorators
 
-Contains app decorators. App decorators is a design pattern to remove view methods from models. The [Draper Gem](https://github.com/drapergem/draper) is a popular choice to use to help with creating and using decorators.
+App decorators is a design pattern to remove view methods from models. The [Draper Gem](https://github.com/drapergem/draper) is a popular choice to use to help with creating and using decorators.
+
+### <a name="app_forms"></a> *app/forms
+
+Form Object is a design pattern that encapsulates logic related to validating and persisting data. Using these can improve the way you implement complex forms.
+
+- [article](https://www.sitepoint.com/7-design-patterns-to-refactor-mvc-components-in-rails/) about using form objects in rails.
+- [video](http://railscasts.com/episodes/416-form-objects) Railscast - implementing form objects.
+
 
 ### <a name="app_helpers"></a> app/helpers
 
