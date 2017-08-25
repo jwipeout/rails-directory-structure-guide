@@ -103,6 +103,7 @@ Contains app services. A service object implements the user’s interactions wit
 
 - [article](https://www.netguru.co/blog/service-objects-in-rails-will-help) about using services in rails.
 - [video](http://railscasts.com/episodes/398-service-objects) Railscast - implementing a service.
+- [video](https://vimeo.com/106759024) domain driven Rails
 
 ### <a name="app_views"></a> app/views
 
