@@ -2,7 +2,7 @@
 
 There is a default directory structure that __Ruby on Rails__ comes with. The Rails guides go in depth in explaining the folder structure, but does not talk about the extra folders that commonly get added in Rails Apps.
 
-The goal of this guide is to be a central place to learn about __ALL__ the folders that are used in Rails apps, _not just the ones that come by default_. 
+The goal of this guide is to be a central place to learn about __ALL__ the folders that are used in Rails apps, _not just the ones that come by default (Highlighted In Green)_. 
 
 We will also go over explaining __RSpec__ folder structure and any additional folders.
 
@@ -12,6 +12,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [assets](#app_assets)
 	- [channels](#app_channels)
 	- [controllers](#app_controllers)
+	- <a style="color: #39b574;" href="#app_decorators">decorators</a>
 	- [helpers](#app_helpers)
 	- [jobs](#app_jobs)
 	- [mailers](#app_mailers)
@@ -48,6 +49,8 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 - [tmp](#tmp)
 - [vendor](#vendor)
 
+---
+
 ### <a name="app"></a> app
 
 It organizes your application components. It's got subdirectories that hold the views, controllers, models, and more that handle business logic.
@@ -63,6 +66,10 @@ Contains channels used to setup connections with [ActionCable](http://guides.rub
 #### <a name="app_controllers"></a> app/controllers
 
 Contains app [controllers](http://guides.rubyonrails.org/action_controller_overview.html).
+
+<h4 style="color: #39b574;" id="app_decorators">app/decorators</h4>
+
+Contains app decorators. App decorators is a design pattern to remove view methods from models. The [Draper Gem](https://github.com/drapergem/draper) is a popular choice to use to help with creating and using decorators.
 
 #### <a name="app_helpers"></a> app/helpers
 
