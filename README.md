@@ -17,6 +17,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [jobs](#app_jobs)
 	- [mailers](#app_mailers)
 	- [models](#app_models)
+	- [*services](#app_services)
 	- [views](#app_views)
 - [bin](#bin)
 - [config](#config)
@@ -86,6 +87,13 @@ Contains app [mailers](http://guides.rubyonrails.org/action_mailer_basics.html).
 #### <a name="app_models"></a> app/models
 
 Contains app [models](http://guides.rubyonrails.org/active_record_basics.html).
+
+#### <a name="app_services"></a> *app/services
+
+Contains app services. A service object implements the user’s interactions with the application. It contains business logic that describe the connections with your domain objects.
+
+- [article](https://www.netguru.co/blog/service-objects-in-rails-will-help) about using services in rails.
+- [video](http://railscasts.com/episodes/398-service-objects) Railscast - implementing a service.
 
 #### <a name="app_views"></a> app/views
 
