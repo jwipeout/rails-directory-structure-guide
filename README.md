@@ -52,7 +52,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 
 ---
 
-## <a name="app"></a> app
+### <a name="app"></a> app
 
 It organizes your application components. It's got subdirectories that hold the views, controllers, models, and more that handle business logic.
 
