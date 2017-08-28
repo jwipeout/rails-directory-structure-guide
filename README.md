@@ -18,6 +18,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [jobs](#app_jobs)
 	- [mailers](#app_mailers)
 	- [models](#app_models)
+	- [*presenters](#app_presenters)
 	- [*services](#app_services)
 	- [views](#app_views)
 - [bin](#bin)
@@ -96,6 +97,14 @@ Contains app [mailers](http://guides.rubyonrails.org/action_mailer_basics.html).
 ### <a name="app_models"></a> app/models
 
 Contains app [models](http://guides.rubyonrails.org/active_record_basics.html).
+
+### <a name="app_presenters"></a> *app/presenters
+
+Presenters is another design pattern to abstract view methods from the model. 
+
+- [article](http://nithinbekal.com/posts/rails-presenters/) about using presenters in rails.
+- [article](https://gist.github.com/somebox/5a7ebf56e3236372eec4) comparing presenters to decorators.
+- [video](http://railscasts.com/episodes/287-presenters-from-scratch) Railscast - implementing a presenter.
 
 ### <a name="app_services"></a> *app/services
 
