@@ -18,6 +18,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [jobs](#app_jobs)
 	- [mailers](#app_mailers)
 	- [models](#app_models)
+	- [*performers](#app_performers)
 	- [*presenters](#app_presenters)
 	- [*services](#app_services)
 	- [views](#app_views)
@@ -72,7 +73,14 @@ Contains app [controllers](http://guides.rubyonrails.org/action_controller_overv
 
 ### <a name="app_decorators"></a> *app/decorators
 
-App decorators is a design pattern to remove view methods from models. The [Draper Gem](https://github.com/drapergem/draper) is a popular choice to use to help with creating and using decorators.
+App decorators is a design pattern to remove view methods from models. 
+
+- [github](https://github.com/drapergem/draper) draper gem
+- [article](https://medium.com/@dljerome/design-patterns-in-ruby-decorator-b7f2da4153b0) explanation of decorator pattern.
+- [video](http://railscasts.com/episodes/286-draper) Railscast - using draper gem.
+- [video](https://www.youtube.com/watch?v=bHpVdOzrvkE) RailsConf - decorators.
+
+The [Draper Gem](https://github.com/drapergem/draper) is a popular choice to use to help with creating and using decorators.
 
 ### <a name="app_forms"></a> *app/forms
 
@@ -98,9 +106,15 @@ Contains app [mailers](http://guides.rubyonrails.org/action_mailer_basics.html).
 
 Contains app [models](http://guides.rubyonrails.org/active_record_basics.html).
 
+### <a name="app_performers"></a> *app/performers
+
+Performers is another design pattern to abstract view methods from the model using modules. 
+
+- [github](https://github.com/jwipeout/performer-pattern) details on the _Performer Pattern_.
+
 ### <a name="app_presenters"></a> *app/presenters
 
-Presenters is another design pattern to abstract view methods from the model. 
+Presenters is another design pattern to abstract view methods from the model using PORO. 
 
 - [article](http://nithinbekal.com/posts/rails-presenters/) about using presenters in rails.
 - [article](https://gist.github.com/somebox/5a7ebf56e3236372eec4) comparing presenters to decorators.
