@@ -21,6 +21,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [*performers](#app_performers)
 	- [*presenters](#app_presenters)
 	- [*services](#app_services)
+	- [*use_cases](#app_use_cases)
 	- [views](#app_views)
 - [bin](#bin)
 - [config](#config)
@@ -127,6 +128,14 @@ Contains app services. A service object implements the user’s interactions wit
 - [article](https://www.netguru.co/blog/service-objects-in-rails-will-help) about using services in rails.
 - [video](http://railscasts.com/episodes/398-service-objects) Railscast - implementing a service.
 - [video](https://vimeo.com/106759024) domain driven Rails
+
+### <a name="app_use_cases"></a> *app/use_cases
+
+Use Cases is pretty much the same thing as services. They are designed to break up non-trivial business logic. 
+
+- [article](https://webuild.envato.com/blog/a-case-for-use-cases/) details on _use cases_.
+
+- [video](https://www.youtube.com/watch?v=atFN0rReJfA) on her article above.
 
 ### <a name="app_views"></a> app/views
 
