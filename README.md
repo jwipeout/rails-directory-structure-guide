@@ -22,6 +22,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [*presenters](#app_presenters)
 	- [*services](#app_services)
 	- [*use_cases](#app_use_cases)
+	- [*values](#app_values)
 	- [views](#app_views)
 - [bin](#bin)
 - [config](#config)
@@ -134,8 +135,15 @@ Contains app services. A service object implements the user’s interactions wit
 Use Cases is pretty much the same thing as services. They are designed to break up non-trivial business logic. 
 
 - [article](https://webuild.envato.com/blog/a-case-for-use-cases/) details on _use cases_.
-
 - [video](https://www.youtube.com/watch?v=atFN0rReJfA) on her article above.
+
+### <a name="app_values"></a> *app/values
+
+Value objects are an abstraction where equality is based on internal fields instead of identity.
+
+- [github](https://github.com/cultuurnet/valueobjects) ValueObjects gem
+- [article](https://www.sitepoint.com/value-objects-explained-with-ruby/) discussion and examples.
+- [video](https://www.youtube.com/watch?v=iTjurFO1l5Q) lecture on value objects.
 
 ### <a name="app_views"></a> app/views
 
