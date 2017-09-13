@@ -15,6 +15,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [*decorators](#app_decorators)
 	- [*forms](#app_forms)
 	- [helpers](#app_helpers)
+	- [*inputs](#app_inputs)
 	- [jobs](#app_jobs)
 	- [mailers](#app_mailers)
 	- [models](#app_models)
@@ -95,6 +96,13 @@ Form Object is a design pattern that encapsulates logic related to validating an
 ### <a name="app_helpers"></a> app/helpers
 
 Contains app [helpers](http://guides.rubyonrails.org/action_view_overview.html#overview-of-helpers-provided-by-action-view).
+
+### <a name="app_inputs"></a> *app/inputs
+
+Simple form allows you to create custom input components and you can place them here.
+
+- [github](https://github.com/plataformatec/simple_form) simple form gem.
+- [github](https://github.com/plataformatec/simple_form/wiki/Adding-custom-input-components) create custom input component.
 
 ### <a name="app_jobs"></a> app/jobs
 
