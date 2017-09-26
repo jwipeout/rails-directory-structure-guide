@@ -21,6 +21,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [mailers](#app_mailers)
 	- [models](#app_models)
 	- [*performers](#app_performers)
+	- [*policies](#app_policies)
 	- [*presenters](#app_presenters)
 	- [*services](#app_services)
 	- [*use_cases](#app_use_cases)
@@ -129,6 +130,13 @@ Contains app [models](http://guides.rubyonrails.org/active_record_basics.html).
 Performers is another design pattern to abstract view methods from the model using modules. 
 
 - [github](https://github.com/jwipeout/performer-pattern) details on the _Performer Pattern_.
+
+### <a name="app_policies"></a> *app/policies
+
+Policies are plain old ruby objects that handle presentation logic. 
+
+- [github](https://github.com/elabs/pundit) Pundit gem.
+- [article](http://www.eq8.eu/blogs/41-policy-objects-in-ruby-on-rails) implementing policy objects.
 
 ### <a name="app_presenters"></a> *app/presenters
 
