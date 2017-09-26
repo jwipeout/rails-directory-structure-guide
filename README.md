@@ -146,6 +146,13 @@ Contains app services. A service object implements the user’s interactions wit
 - [video](http://railscasts.com/episodes/398-service-objects) Railscast - implementing a service.
 - [video](https://vimeo.com/106759024) domain driven Rails
 
+### <a name="app_uploaders"></a> *app/uploaders
+
+A uploader is a class that is used by CarrierWave gem to model an uploaded file.
+
+- [github](https://github.com/carrierwaveuploader/carrierwave) CarrierWave gem.
+- [video](https://www.youtube.com/watch?v=YpF_4uciMvg) Railscast - file uploading with CarrierWave.
+
 ### <a name="app_use_cases"></a> *app/use_cases
 
 Use Cases is pretty much the same thing as services. They are designed to break up non-trivial business logic. 
