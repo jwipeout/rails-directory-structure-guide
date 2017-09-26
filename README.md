@@ -10,6 +10,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 
 - [app](#app)
 	- [assets](#app_assets)
+	- [*cells](#app_cells)
 	- [channels](#app_channels)
 	- [controllers](#app_controllers)
 	- [*decorators](#app_decorators)
@@ -65,6 +66,13 @@ It organizes your application components. It's got subdirectories that hold the 
 ### <a name="app_assets"></a> app/assets
 
 Holds the assets for your application including images, stylesheets, and javascript.
+
+### <a name="app_cells"></a> *app/cells
+
+App cells are simple ruby classes that can render templates.
+
+- [github](https://github.com/trailblazer/cells) Trailblazer framework
+- [video](https://www.youtube.com/watch?v=qSxN4mlyQO8&t=1781s) RailsConf talk about trailblazer.
 
 ### <a name="app_channels"></a> app/channels
 
