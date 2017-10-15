@@ -26,6 +26,7 @@ We will also go over explaining __RSpec__ folder structure and any additional fo
 	- [*services](#app_services)
 	- [*use_cases](#app_use_cases)
 	- [*values](#app_values)
+	- [*workers](#app_workers)
 	- [views](#app_views)
 - [bin](#bin)
 - [config](#config)
@@ -179,6 +180,15 @@ Value objects are an abstraction where equality is based on internal fields inst
 ### <a name="app_views"></a> app/views
 
 Contains app [views](http://guides.rubyonrails.org/layouts_and_rendering.html).
+
+### <a name="app_workers"></a> *app/workers
+
+Workers are objects that allow you to run processes in the background. Remeber, it is recommended to use active job instead of your own workers so you can later switch out job runners without having to worry about api differences.
+
+- [github](https://github.com/mperham/sidekiq) Sidekiq gem
+- [github](https://github.com/resque/resque) Resque gem
+- [article](https://ryanboland.com/blog/writing-your-first-background-worker/) writing workers.
+- [video](https://www.youtube.com/watch?v=CStZg8ql9Vs) Sidekiq using active job.
 
 ---
 
